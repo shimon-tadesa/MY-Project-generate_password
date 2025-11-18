@@ -9,7 +9,7 @@ def generate_password(length=14):
     chars = string.ascii_letters + string.digits + "!@#$%^&*()_-+=<>?"
     return ''.join(random.choice(chars) for _ in range(length))
 
-# אנימציה של טעינה
+# אנימציה של טעינהדד
 def loading_animation(label):
     for frame in ["⠋", "⠙", "⠸", "⠼", "⠴", "⠦", "⠇"]:
         label.config(text=frame)
